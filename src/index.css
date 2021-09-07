@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #66a0eb;
+}
+.center_div{
+  background-color: white;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 1rem;
+  height:60%;
+  width:20%;
+  text-align: center;
+  box-shadow:5px 5px 15px -5px rgb(0, 0, 0,0.3); 
+}
+ul{
+    margin-top: 10%;
+}
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    color:rgb(88, 85, 85);
+    text-transform: capitalize;
+}
+h1{
+    background-color: #8762b4;
+    color: white;
+}
+input[type=text]{
+    border:none;
+    outline: none;
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 2px solid #8762b4;
+    width:60%;
+}
+button{
+    font-size:1.5rem;
+    width:2.5rem;
+    height: 2.5rem;
+    font-style: bold;
+    border:none;
+    outline: none;
+    margin-right: 1%;
+    margin-left: 2%;
+    background-color: #8762b4;
+    border-radius: 50%;
+    color: white;
+    box-shadow:5px 5px 15px -5px rgb(0, 0, 0,0.3);
+}
+button:hover{
+   background-color: green;
+   cursor: pointer;
+}
+.listDeco{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2%;
+}
+.listDeco button{
+    width:2rem;
+    height:2rem;
+    margin-right: 2%;
+}
+.listDeco button:hover{
+    background-color: crimson;
+}
